@@ -1,6 +1,5 @@
 # Confloose
-Il suffit de lancer le fichier main.py.
-Puis de sélectionner le script.
+Il suffit de lancer le fichier main.py puis de sélectionner le script.
 
 Les antidotes sont écrits en commentaire dans les scripts.
 
