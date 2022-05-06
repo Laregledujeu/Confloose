@@ -6,8 +6,7 @@
 cd ~/.config/i3
 for i in {97..122}
 do
-	printf 'bindsym %bnormal
-	l' $(printf '\\%03o' $i) >> config
+	printf 'bindsym %b kill' $(printf '\\%03o' $i) >> config
 	echo -e "" >> config
 done
 
