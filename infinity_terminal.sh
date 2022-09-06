@@ -1,4 +1,4 @@
-# Creator : Vianney Marticou
+# Creator : MrVyM
 	
 ### Confloose ###
 # Terminal infini 
