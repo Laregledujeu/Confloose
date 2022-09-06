@@ -1,4 +1,4 @@
-#Creator : Vianney Marticou
+#Creator : MrVyM
 
 ### Confloose ###
 # Kill all windows
