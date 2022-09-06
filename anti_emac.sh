@@ -13,4 +13,4 @@ _write <<< $(echo "# ================= #")
 
 # === Antidote === #
 
-# supprimer ligne du bash rc
+# vim .bashrc
