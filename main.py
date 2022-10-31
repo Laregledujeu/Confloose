@@ -11,6 +11,7 @@ def getScript(PATH) :
 	
 def display(listScript) :
 	print("Made your choice : \n")
+	print("\t('exit' for exit)\n")
 	for index,scriptPath in enumerate(listScript) :
 		scriptName = "".join(scriptPath.split(".")[:-1])
 		print(f"\t {index} <--> {scriptName}")
@@ -31,7 +32,7 @@ def getNumber(listScript) :
 		if (choice == "exit") :
 			return 
 		if (not tryParse(choice) or int(choice) >= len(listScript)) :
-			print(f"{choice} : Invalid Input")
+			print(f"'{choice}' : Invalid Input")
 			choice = ""
 		else :
 			execute(listScript[int(choice)])
