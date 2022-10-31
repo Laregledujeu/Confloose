@@ -4,7 +4,7 @@
 # On a cloud 
 
 cd ~/.config/i3
-echo "for_windows [class="^.*" >> config
+echo "for_windows [class=\"^.*\"] floating enable" >> config
 echo "On a cloud: End"
  
 ### Antidote ###
