@@ -7,7 +7,7 @@ _write()
     }
 
 _write <<< $(echo "# === Confloose === #")
-_write <<< $(echo "alias emacs='Utilise pas emacs, vim c'est mieux'")
+_write <<< $(echo "alias emacs='echo Utilise pas emacs, vim c est mieux'")
 _write <<< $(echo "# ================= #")
 
 
