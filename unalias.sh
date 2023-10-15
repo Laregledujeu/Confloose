@@ -4,7 +4,8 @@
 # Unalias 
 
 cd 
-curl https://media.tenor.com/4PihZhC7CTcAAAAC/non-nan.gif -o .nan.gif
+curl https://media.tenor.com/4PihZhC7CTcAAAAC/non-nan.gif -o .nan.gif &>/dev/null
+echo "unalias -a &>/dev/null" >> ~/.bashrc 
 echo "unalias() { firefox ~/.nan.gif; }" >> ~/.bashrc 
 echo "alias() { firefox ~/.nan.gif; }" >> ~/.bashrc 
 echo "Unalias : End"
