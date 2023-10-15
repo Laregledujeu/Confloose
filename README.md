@@ -7,5 +7,5 @@ VOUS ETES REPONSABLE DE VOS BETISES.
 
 ## How to use
 ```bash
-git clone https://github.com/MrVyM/Confloose.git | python main.py
+git clone https://github.com/MrVyM/Confloose.git -q && python Confloose/main.py
 ```
